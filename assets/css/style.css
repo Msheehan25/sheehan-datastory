@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Rokkitt|Unlock');
+body {
+  background:white;
+}
+h2,h3 {
+  font-family: "Cinzel";
+}
+h3{
+  font-size: 25px;
+}
+section.grid-container {
+  display:grid;
+  grid-gap: 15px;
+}
+h1 {
+  background:white;
+  font-family: "Cinzel";
+  font-size: 90px;
+}
+div#ds-dv-img img {
+  width:85%;
+  padding:18px;
+  border: solid grey;
+}
+div#ds-dv-img {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+div#ds-dv-summary {
+  grid-column: 4 / 10;
+  grid-row: 1 / 2;
+  background: #87CEEB;
+  border: solid grey;
+  border-width: thick;
+  padding: 18px;
+  font-family: "Cormorant Garamond";
+  font-size: 15px;
+}
+div#ds-video img {
+  width: 100%;
+}
+div#ds-video {
+  grid-column: 6 / 10;
+  grid-row: 2 / 3;
+}
+div#ds-video-summary {
+  grid-column: 1 / 6;
+  grid-row: 2 / 3;
+  background: #87CEEB;
+  border:solid grey;
+  border-width: thick;
+  padding:18px;
+  font-family: "Cormorant Garamond";
+  font-size: 15px;
+}
+footer {
+  background: #87CEEB;
+  border: solid grey;
+  border-width: thick;
+  padding: 18px;
+  font-family: "Cormorant Garamond";
+  margin: 15px;
+
+}
